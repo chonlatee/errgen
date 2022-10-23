@@ -1,0 +1,17 @@
+- name: UserNotFound
+  message: "User %q not found."
+  vars:
+    - name: user
+      type: string
+- name: OrderNotFound
+  message: "Order %q not found."
+  vars:
+    - name: order
+      type: string
+- name: UserNameTooShort
+  message: "User %q name too short, minimum is %d."
+  vars:
+    - name: user
+      type: string
+    - name: minimum
+      type: int
